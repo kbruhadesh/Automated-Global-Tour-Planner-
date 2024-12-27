@@ -42,3 +42,13 @@ Planning international trips can be overwhelming due to constraints like time, b
    ```bash
    git clone https://github.com/kbruhadesh/Automated-Global-Tour-Planner-.git
    
+2. Install the required libraries:
+    ```bash
+   pip install tkinter
+   pip install numpy
+   pip install matplotlib
+   pip install scipy
+    
+3. Run the application:
+   ```bash
+   python main.py
