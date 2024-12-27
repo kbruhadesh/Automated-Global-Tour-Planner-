@@ -40,5 +40,5 @@ Planning international trips can be overwhelming due to constraints like time, b
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/global-tour-planner.git
-   cd global-tour-planner
+   git clone https://github.com/kbruhadesh/Automated-Global-Tour-Planner-.git
+   
