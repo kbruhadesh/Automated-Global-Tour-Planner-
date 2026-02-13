@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Tour Planner — AI-Optimized Travel Itineraries</title>
+    <meta name="description"
+        content="Plan your perfect multi-country trip with AI-optimized routing, smart budget management, season awareness, currency conversion, visa info, and interest-based destination matching across 100+ countries.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <!-- Leaflet.js -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- ─── Header ──────────────────────────────────────────────── -->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="/" class="header__brand">
+                <i data-lucide="globe" class="header__logo-icon"></i>
+                <span class="header__name">Global Tour Planner</span>
+            </a>
+            <nav class="header__nav">
+                <a href="#" class="header__link header__link--active">Plan</a>
+                <a href="#" class="header__link" id="nav-my-trips">My Trips</a>
+            </nav>
+            <div class="header__actions">
+                <button class="icon-btn" id="btn-sidebar-toggle" aria-label="Toggle sidebar">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ─── Main Layout ──────────────────────────────────────────── -->
+    <main class="app-layout" id="app-layout">
+
+        <!-- ─── Sidebar: Input Form ──────────────────────────────── -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar__inner">
+                <div class="sidebar__heading">
+                    <h2 class="sidebar__title">Plan your trip</h2>
+                    <p class="sidebar__subtitle"><span id="country-count">0</span> destinations available</p>
+                </div>
+
+                <form id="itinerary-form" class="form" autocomplete="off">
+
+                    <!-- Home Country (Searchable) -->
+                    <div class="form-group">
+                        <label class="form-label" for="home-country-input">
+                            <i data-lucide="home" class="form-label__icon"></i>
+                            Home Country
+                        </label>
+                        <div class="search-select" id="home-country-wrapper">
+                            <input type="text" id="home-country-input" class="form-input"
+                                placeholder="Type to search..." autocomplete="off" required>
+                            <input type="hidden" id="home-country" value="">
+                            <i data-lucide="chevron-down" class="search-select__arrow"></i>
+                            <ul class="search-select__dropdown" id="home-country-dropdown"></ul>
+                        </div>
+                    </div>
+
+                    <!-- Number of Countries (manual input) -->
+                    <div class="form-group">
+                        <label class="form-label" for="num-countries">
+                            <i data-lucide="map-pin" class="form-label__icon"></i>
+                            Countries to visit
+                        </label>
+                        <input type="number" id="num-countries" class="form-input form-input--number" min="1" max="15"
+                            value="3" required>
+                    </div>
+
+                    <!-- Budget -->
+                    <div class="form-group">
+                        <label class="form-label" for="budget">
+                            <i data-lucide="dollar-sign" class="form-label__icon"></i>
+                            Budget (USD)
+                        </label>
+                        <input type="number" id="budget" class="form-input form-input--number" min="500" max="100000"
+                            step="100" value="5000" required>
+                    </div>
+
+                    <!-- Dates -->
+                    <div class="form-group form-group--row">
+                        <div class="form-group__half">
+                            <label class="form-label" for="start-date">
+                                <i data-lucide="calendar" class="form-label__icon"></i>
+                                Start date
+                            </label>
+                            <input type="date" id="start-date" class="form-input" required>
+                        </div>
+                        <div class="form-group__half">
+                            <label class="form-label" for="end-date">
+                                <i data-lucide="calendar" class="form-label__icon"></i>
+                                End date
+                            </label>
+                            <input type="date" id="end-date" class="form-input" required>
+                        </div>
+                    </div>
+
+                    <!-- Trip Duration Display -->
+                    <div class="trip-duration" id="trip-duration" style="display:none;">
+                        <i data-lucide="clock" class="trip-duration__icon"></i>
+                        <span class="trip-duration__text" id="trip-duration-text">0 days</span>
+                    </div>
+
+                    <!-- Interests -->
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i data-lucide="heart" class="form-label__icon"></i>
+                            Travel interests
+                        </label>
+                        <div class="chips-container" id="interests-container">
+                            <!-- Dynamically populated -->
+                        </div>
+                    </div>
+
+                    <!-- Generate Button -->
+                    <button type="submit" class="btn btn--primary btn--full" id="btn-generate">
+                        Generate Itinerary
+                        <i data-lucide="arrow-right" class="btn__icon-right"></i>
+                    </button>
+                </form>
+            </div>
+        </aside>
+
+        <!-- ─── Content Area ──────────────────────────────────────── -->
+        <section class="content" id="content">
+
+            <!-- Map -->
+            <div class="map-container" id="map-container">
+                <div id="map" class="map"></div>
+                <div class="map-overlay" id="map-overlay">
+                    <div class="map-overlay__content">
+                        <i data-lucide="map" class="map-overlay__icon"></i>
+                        <p class="map-overlay__text">Your optimized route will appear here</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Panel -->
+            <div class="results-panel" id="results-panel" style="display:none;">
+
+                <!-- Route Summary -->
+                <div class="route-summary" id="route-summary">
+                    <div class="route-summary__route" id="route-display"></div>
+                    <div class="route-summary__stats">
+                        <div class="stat">
+                            <span class="stat__value" id="stat-countries">0</span>
+                            <span class="stat__label">Countries</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__value" id="stat-days">0</span>
+                            <span class="stat__label">Days</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__value" id="stat-distance">0</span>
+                            <span class="stat__label">km</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Intelligence Alerts -->
+                <div class="intelligence-alerts" id="intelligence-alerts" style="display:none;"></div>
+
+                <!-- Itinerary + Budget Grid -->
+                <div class="results-grid">
+
+                    <!-- Timeline -->
+                    <div class="timeline-section">
+                        <h3 class="section-title">
+                            <i data-lucide="list" class="section-title__icon"></i>
+                            Your Itinerary
+                        </h3>
+                        <div class="timeline" id="timeline"></div>
+                    </div>
+
+                    <!-- Budget Dashboard -->
+                    <div class="budget-section">
+                        <h3 class="section-title">
+                            <i data-lucide="pie-chart" class="section-title__icon"></i>
+                            Budget
+                        </h3>
+                        <div class="budget-dashboard" id="budget-dashboard">
+                            <div class="budget-chart-wrap">
+                                <canvas id="budget-chart" width="200" height="200"></canvas>
+                                <div class="budget-center" id="budget-center">
+                                    <span class="budget-center__percent" id="budget-percent">0%</span>
+                                    <span class="budget-center__label">used</span>
+                                </div>
+                            </div>
+                            <div class="budget-stats" id="budget-stats"></div>
+                            <div class="budget-tips" id="budget-tips" style="display:none;">
+                                <h4 class="budget-tips__title">Tips</h4>
+                                <ul class="budget-tips__list" id="budget-tips-list"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Warnings -->
+                <div class="warnings" id="warnings" style="display:none;">
+                    <div class="warning-card" id="warning-card"></div>
+                </div>
+
+                <!-- Actions -->
+                <div class="export-bar" id="export-bar">
+                    <button class="btn btn--outline btn--sm" id="btn-print" title="Print itinerary">
+                        <i data-lucide="printer"></i> Print
+                    </button>
+                    <button class="btn btn--outline btn--sm" id="btn-share" title="Copy link">
+                        <i data-lucide="link"></i> Copy Link
+                    </button>
+                    <button class="btn btn--outline btn--sm" id="btn-save-trip" title="Save trip">
+                        <i data-lucide="save"></i> Save Trip
+                    </button>
+                    <button class="btn btn--outline btn--sm" id="btn-load-trip" title="Load saved trip"
+                        style="display:none;">
+                        <i data-lucide="folder-open"></i> Load Trip
+                    </button>
+                    <button class="btn btn--outline btn--sm" id="btn-new" title="New trip">
+                        <i data-lucide="plus"></i> New Trip
+                    </button>
+                </div>
+            </div>
+
+            <!-- Loading Overlay -->
+            <div class="loading-overlay" id="loading-overlay" style="display:none;">
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                    <p class="loading-text">Optimizing your route...</p>
+                    <p class="loading-subtext">Running TSP + 2-opt algorithm</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ─── Footer ──────────────────────────────────────────────── -->
+    <footer class="footer" id="footer">
+        <div class="footer__inner">
+            <div class="footer__left">
+                <i data-lucide="globe" class="footer__icon"></i>
+                <span class="footer__text">Global Tour Planner</span>
+            </div>
+            <div class="footer__center">
+                <span class="footer__text">AI-optimized multi-country travel itineraries</span>
+            </div>
+            <div class="footer__right">
+                <span class="footer__text footer__text--muted">&copy; 2025</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast" aria-live="polite"></div>
+
+    <!-- Scripts -->
+    <script src="js/map.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        // Initialize Lucide icons after DOM loads
+        document.addEventListener('DOMContentLoaded', () => {
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
+        });
+    </script>
+</body>
+
+</html>

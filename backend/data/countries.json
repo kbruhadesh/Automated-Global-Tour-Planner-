@@ -1,0 +1,2550 @@
+{
+    "Thailand": {
+        "interests": [
+            "culture",
+            "beaches",
+            "food",
+            "nature",
+            "adventure",
+            "temples",
+            "islands",
+            "nightlife"
+        ],
+        "avg_travel_cost": 500,
+        "avg_accommodation_cost": 100,
+        "coordinates": [
+            13.7563,
+            100.5018
+        ],
+        "flag": "🇹🇭",
+        "currency": "THB",
+        "best_season": "November - February",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Bangkok",
+            "Chiang Mai",
+            "Phuket",
+            "Krabi"
+        ]
+    },
+    "Indonesia": {
+        "interests": [
+            "beaches",
+            "culture",
+            "nature",
+            "adventure",
+            "islands",
+            "temples",
+            "diving",
+            "food"
+        ],
+        "avg_travel_cost": 700,
+        "avg_accommodation_cost": 100,
+        "coordinates": [
+            -6.2088,
+            106.8456
+        ],
+        "flag": "🇮🇩",
+        "currency": "IDR",
+        "best_season": "April - October",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Bali",
+            "Jakarta",
+            "Yogyakarta",
+            "Lombok"
+        ]
+    },
+    "Maldives": {
+        "interests": [
+            "beaches",
+            "luxury",
+            "diving",
+            "nature",
+            "islands",
+            "adventure"
+        ],
+        "avg_travel_cost": 900,
+        "avg_accommodation_cost": 200,
+        "coordinates": [
+            3.2028,
+            73.2207
+        ],
+        "flag": "🇲🇻",
+        "currency": "MVR",
+        "best_season": "November - April",
+        "safety_score": "safe",
+        "top_cities": [
+            "Malé",
+            "Hulhumalé",
+            "Addu City"
+        ]
+    },
+    "Sri Lanka": {
+        "interests": [
+            "beaches",
+            "culture",
+            "nature",
+            "temples",
+            "wildlife",
+            "food",
+            "adventure",
+            "historical"
+        ],
+        "avg_travel_cost": 600,
+        "avg_accommodation_cost": 80,
+        "coordinates": [
+            6.9271,
+            79.8612
+        ],
+        "flag": "🇱🇰",
+        "currency": "LKR",
+        "best_season": "December - March",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Colombo",
+            "Kandy",
+            "Galle",
+            "Ella"
+        ]
+    },
+    "India": {
+        "interests": [
+            "culture",
+            "historical",
+            "temples",
+            "food",
+            "architecture",
+            "nature",
+            "adventure",
+            "wildlife"
+        ],
+        "avg_travel_cost": 500,
+        "avg_accommodation_cost": 80,
+        "coordinates": [
+            28.6139,
+            77.2090
+        ],
+        "flag": "🇮🇳",
+        "currency": "INR",
+        "best_season": "October - March",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Delhi",
+            "Mumbai",
+            "Jaipur",
+            "Varanasi",
+            "Goa"
+        ]
+    },
+    "Japan": {
+        "interests": [
+            "culture",
+            "food",
+            "historical",
+            "technology",
+            "temples",
+            "shopping",
+            "nature",
+            "architecture"
+        ],
+        "avg_travel_cost": 800,
+        "avg_accommodation_cost": 150,
+        "coordinates": [
+            35.6762,
+            139.6503
+        ],
+        "flag": "🇯🇵",
+        "currency": "JPY",
+        "best_season": "March - May, October - November",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Tokyo",
+            "Kyoto",
+            "Osaka",
+            "Hiroshima"
+        ]
+    },
+    "Vietnam": {
+        "interests": [
+            "culture",
+            "food",
+            "historical",
+            "nature",
+            "beaches",
+            "adventure",
+            "temples",
+            "islands"
+        ],
+        "avg_travel_cost": 550,
+        "avg_accommodation_cost": 70,
+        "coordinates": [
+            21.0285,
+            105.8542
+        ],
+        "flag": "🇻🇳",
+        "currency": "VND",
+        "best_season": "February - April",
+        "safety_score": "safe",
+        "top_cities": [
+            "Hanoi",
+            "Ho Chi Minh City",
+            "Da Nang",
+            "Hoi An"
+        ]
+    },
+    "Singapore": {
+        "interests": [
+            "food",
+            "shopping",
+            "technology",
+            "culture",
+            "luxury",
+            "architecture",
+            "nature",
+            "nightlife"
+        ],
+        "avg_travel_cost": 650,
+        "avg_accommodation_cost": 180,
+        "coordinates": [
+            1.3521,
+            103.8198
+        ],
+        "flag": "🇸🇬",
+        "currency": "SGD",
+        "best_season": "February - April",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Singapore"
+        ]
+    },
+    "South Korea": {
+        "interests": [
+            "culture",
+            "technology",
+            "food",
+            "shopping",
+            "historical",
+            "architecture",
+            "temples",
+            "nature"
+        ],
+        "avg_travel_cost": 750,
+        "avg_accommodation_cost": 130,
+        "coordinates": [
+            37.5665,
+            126.9780
+        ],
+        "flag": "🇰🇷",
+        "currency": "KRW",
+        "best_season": "April - June, September - November",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Seoul",
+            "Busan",
+            "Jeju",
+            "Gyeongju"
+        ]
+    },
+    "Malaysia": {
+        "interests": [
+            "food",
+            "culture",
+            "beaches",
+            "nature",
+            "shopping",
+            "islands",
+            "wildlife",
+            "temples"
+        ],
+        "avg_travel_cost": 500,
+        "avg_accommodation_cost": 90,
+        "coordinates": [
+            3.1390,
+            101.6869
+        ],
+        "flag": "🇲🇾",
+        "currency": "MYR",
+        "best_season": "March - October",
+        "safety_score": "safe",
+        "top_cities": [
+            "Kuala Lumpur",
+            "Penang",
+            "Langkawi",
+            "Malacca"
+        ]
+    },
+    "Philippines": {
+        "interests": [
+            "beaches",
+            "islands",
+            "adventure",
+            "nature",
+            "diving",
+            "culture",
+            "wildlife",
+            "food"
+        ],
+        "avg_travel_cost": 600,
+        "avg_accommodation_cost": 85,
+        "coordinates": [
+            14.5995,
+            120.9842
+        ],
+        "flag": "🇵🇭",
+        "currency": "PHP",
+        "best_season": "December - May",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Manila",
+            "Cebu",
+            "Palawan",
+            "Boracay"
+        ]
+    },
+    "Cambodia": {
+        "interests": [
+            "historical",
+            "culture",
+            "temples",
+            "nature",
+            "adventure",
+            "architecture",
+            "wildlife"
+        ],
+        "avg_travel_cost": 550,
+        "avg_accommodation_cost": 75,
+        "coordinates": [
+            11.5564,
+            104.9282
+        ],
+        "flag": "🇰🇭",
+        "currency": "KHR",
+        "best_season": "November - February",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Siem Reap",
+            "Phnom Penh",
+            "Sihanoukville"
+        ]
+    },
+    "UAE": {
+        "interests": [
+            "luxury",
+            "shopping",
+            "architecture",
+            "culture",
+            "adventure",
+            "beaches",
+            "technology",
+            "nightlife"
+        ],
+        "avg_travel_cost": 700,
+        "avg_accommodation_cost": 200,
+        "coordinates": [
+            25.2048,
+            55.2708
+        ],
+        "flag": "🇦🇪",
+        "currency": "AED",
+        "best_season": "November - March",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Dubai",
+            "Abu Dhabi",
+            "Sharjah"
+        ]
+    },
+    "Nepal": {
+        "interests": [
+            "nature",
+            "adventure",
+            "temples",
+            "culture",
+            "wildlife",
+            "historical",
+            "architecture"
+        ],
+        "avg_travel_cost": 450,
+        "avg_accommodation_cost": 60,
+        "coordinates": [
+            27.7172,
+            85.3240
+        ],
+        "flag": "🇳🇵",
+        "currency": "NPR",
+        "best_season": "October - December, March - May",
+        "safety_score": "safe",
+        "top_cities": [
+            "Kathmandu",
+            "Pokhara",
+            "Chitwan",
+            "Lumbini"
+        ]
+    },
+    "Bhutan": {
+        "interests": [
+            "culture",
+            "temples",
+            "nature",
+            "historical",
+            "adventure",
+            "wildlife",
+            "architecture"
+        ],
+        "avg_travel_cost": 800,
+        "avg_accommodation_cost": 250,
+        "coordinates": [
+            27.4716,
+            89.6386
+        ],
+        "flag": "🇧🇹",
+        "currency": "BTN",
+        "best_season": "March - May, September - November",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Thimphu",
+            "Paro",
+            "Punakha"
+        ]
+    },
+    "China": {
+        "interests": [
+            "historical",
+            "culture",
+            "architecture",
+            "food",
+            "shopping",
+            "nature",
+            "temples",
+            "technology"
+        ],
+        "avg_travel_cost": 750,
+        "avg_accommodation_cost": 120,
+        "coordinates": [
+            39.9042,
+            116.4074
+        ],
+        "flag": "🇨🇳",
+        "currency": "CNY",
+        "best_season": "April - May, September - October",
+        "safety_score": "safe",
+        "top_cities": [
+            "Beijing",
+            "Shanghai",
+            "Xi'an",
+            "Chengdu"
+        ]
+    },
+    "Taiwan": {
+        "interests": [
+            "food",
+            "culture",
+            "nature",
+            "shopping",
+            "technology",
+            "temples",
+            "historical",
+            "nightlife"
+        ],
+        "avg_travel_cost": 650,
+        "avg_accommodation_cost": 110,
+        "coordinates": [
+            25.0330,
+            121.5654
+        ],
+        "flag": "🇹🇼",
+        "currency": "TWD",
+        "best_season": "October - December",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Taipei",
+            "Kaohsiung",
+            "Taichung",
+            "Tainan"
+        ]
+    },
+    "Australia": {
+        "interests": [
+            "nature",
+            "beaches",
+            "wildlife",
+            "adventure",
+            "luxury",
+            "islands",
+            "diving",
+            "food"
+        ],
+        "avg_travel_cost": 1000,
+        "avg_accommodation_cost": 150,
+        "coordinates": [
+            -33.8688,
+            151.2093
+        ],
+        "flag": "🇦🇺",
+        "currency": "AUD",
+        "best_season": "September - November, March - May",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Sydney",
+            "Melbourne",
+            "Brisbane",
+            "Perth"
+        ]
+    },
+    "New Zealand": {
+        "interests": [
+            "nature",
+            "adventure",
+            "wildlife",
+            "luxury",
+            "islands",
+            "beaches",
+            "food"
+        ],
+        "avg_travel_cost": 900,
+        "avg_accommodation_cost": 130,
+        "coordinates": [
+            -41.2865,
+            174.7762
+        ],
+        "flag": "🇳🇿",
+        "currency": "NZD",
+        "best_season": "December - February",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Auckland",
+            "Queenstown",
+            "Wellington",
+            "Rotorua"
+        ]
+    },
+    "Turkey": {
+        "interests": [
+            "historical",
+            "culture",
+            "food",
+            "beaches",
+            "architecture",
+            "shopping",
+            "adventure",
+            "temples"
+        ],
+        "avg_travel_cost": 600,
+        "avg_accommodation_cost": 100,
+        "coordinates": [
+            41.0082,
+            28.9784
+        ],
+        "flag": "🇹🇷",
+        "currency": "TRY",
+        "best_season": "April - May, September - October",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Istanbul",
+            "Cappadocia",
+            "Antalya",
+            "Ephesus"
+        ]
+    },
+    "Egypt": {
+        "interests": [
+            "historical",
+            "culture",
+            "architecture",
+            "adventure",
+            "nature",
+            "temples",
+            "beaches",
+            "wildlife"
+        ],
+        "avg_travel_cost": 550,
+        "avg_accommodation_cost": 90,
+        "coordinates": [
+            30.0444,
+            31.2357
+        ],
+        "flag": "🇪🇬",
+        "currency": "EGP",
+        "best_season": "October - April",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Cairo",
+            "Luxor",
+            "Aswan",
+            "Hurghada"
+        ]
+    },
+    "Morocco": {
+        "interests": [
+            "culture",
+            "architecture",
+            "food",
+            "adventure",
+            "nature",
+            "shopping",
+            "beaches"
+        ],
+        "avg_travel_cost": 600,
+        "avg_accommodation_cost": 85,
+        "coordinates": [
+            31.6295,
+            -7.9811
+        ],
+        "flag": "🇲🇦",
+        "currency": "MAD",
+        "best_season": "March - May, September - November",
+        "safety_score": "safe",
+        "top_cities": [
+            "Marrakech",
+            "Fes",
+            "Chefchaouen",
+            "Casablanca"
+        ]
+    },
+    "Jordan": {
+        "interests": [
+            "historical",
+            "culture",
+            "architecture",
+            "nature",
+            "adventure",
+            "temples",
+            "beaches"
+        ],
+        "avg_travel_cost": 650,
+        "avg_accommodation_cost": 110,
+        "coordinates": [
+            31.9454,
+            35.9284
+        ],
+        "flag": "🇯🇴",
+        "currency": "JOD",
+        "best_season": "March - May, September - November",
+        "safety_score": "safe",
+        "top_cities": [
+            "Amman",
+            "Petra",
+            "Wadi Rum",
+            "Aqaba"
+        ]
+    },
+    "Oman": {
+        "interests": [
+            "nature",
+            "culture",
+            "beaches",
+            "adventure",
+            "wildlife",
+            "luxury",
+            "islands"
+        ],
+        "avg_travel_cost": 700,
+        "avg_accommodation_cost": 150,
+        "coordinates": [
+            23.5859,
+            58.4059
+        ],
+        "flag": "🇴🇲",
+        "currency": "OMR",
+        "best_season": "October - March",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Muscat",
+            "Nizwa",
+            "Salalah",
+            "Sur"
+        ]
+    },
+    "Israel": {
+        "interests": [
+            "historical",
+            "culture",
+            "temples",
+            "beaches",
+            "food",
+            "technology",
+            "architecture",
+            "nature"
+        ],
+        "avg_travel_cost": 750,
+        "avg_accommodation_cost": 160,
+        "coordinates": [
+            31.7683,
+            35.2137
+        ],
+        "flag": "🇮🇱",
+        "currency": "ILS",
+        "best_season": "April - May, September - November",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Tel Aviv",
+            "Jerusalem",
+            "Haifa",
+            "Eilat"
+        ]
+    },
+    "Italy": {
+        "interests": [
+            "culture",
+            "food",
+            "historical",
+            "architecture",
+            "art",
+            "beaches",
+            "shopping",
+            "luxury"
+        ],
+        "avg_travel_cost": 700,
+        "avg_accommodation_cost": 140,
+        "coordinates": [
+            41.9028,
+            12.4964
+        ],
+        "flag": "🇮🇹",
+        "currency": "EUR",
+        "best_season": "April - June, September - October",
+        "safety_score": "safe",
+        "top_cities": [
+            "Rome",
+            "Florence",
+            "Venice",
+            "Milan",
+            "Amalfi"
+        ]
+    },
+    "France": {
+        "interests": [
+            "culture",
+            "food",
+            "art",
+            "architecture",
+            "historical",
+            "shopping",
+            "luxury",
+            "beaches"
+        ],
+        "avg_travel_cost": 750,
+        "avg_accommodation_cost": 160,
+        "coordinates": [
+            48.8566,
+            2.3522
+        ],
+        "flag": "🇫🇷",
+        "currency": "EUR",
+        "best_season": "June - September",
+        "safety_score": "safe",
+        "top_cities": [
+            "Paris",
+            "Nice",
+            "Lyon",
+            "Marseille"
+        ]
+    },
+    "Spain": {
+        "interests": [
+            "culture",
+            "food",
+            "beaches",
+            "architecture",
+            "historical",
+            "nightlife",
+            "art",
+            "adventure"
+        ],
+        "avg_travel_cost": 650,
+        "avg_accommodation_cost": 130,
+        "coordinates": [
+            40.4168,
+            -3.7038
+        ],
+        "flag": "🇪🇸",
+        "currency": "EUR",
+        "best_season": "April - June, September - October",
+        "safety_score": "safe",
+        "top_cities": [
+            "Barcelona",
+            "Madrid",
+            "Seville",
+            "Valencia"
+        ]
+    },
+    "Greece": {
+        "interests": [
+            "historical",
+            "beaches",
+            "culture",
+            "islands",
+            "food",
+            "architecture",
+            "temples",
+            "nature"
+        ],
+        "avg_travel_cost": 600,
+        "avg_accommodation_cost": 120,
+        "coordinates": [
+            37.9838,
+            23.7275
+        ],
+        "flag": "🇬🇷",
+        "currency": "EUR",
+        "best_season": "May - October",
+        "safety_score": "safe",
+        "top_cities": [
+            "Athens",
+            "Santorini",
+            "Mykonos",
+            "Crete"
+        ]
+    },
+    "Portugal": {
+        "interests": [
+            "culture",
+            "food",
+            "beaches",
+            "historical",
+            "architecture",
+            "nature",
+            "nightlife",
+            "adventure"
+        ],
+        "avg_travel_cost": 550,
+        "avg_accommodation_cost": 110,
+        "coordinates": [
+            38.7223,
+            -9.1393
+        ],
+        "flag": "🇵🇹",
+        "currency": "EUR",
+        "best_season": "March - May, September - October",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Lisbon",
+            "Porto",
+            "Algarve",
+            "Sintra"
+        ]
+    },
+    "United Kingdom": {
+        "interests": [
+            "culture",
+            "historical",
+            "architecture",
+            "art",
+            "shopping",
+            "food",
+            "nature",
+            "nightlife"
+        ],
+        "avg_travel_cost": 800,
+        "avg_accommodation_cost": 180,
+        "coordinates": [
+            51.5074,
+            -0.1278
+        ],
+        "flag": "🇬🇧",
+        "currency": "GBP",
+        "best_season": "May - September",
+        "safety_score": "safe",
+        "top_cities": [
+            "London",
+            "Edinburgh",
+            "Oxford",
+            "Bath"
+        ]
+    },
+    "Germany": {
+        "interests": [
+            "culture",
+            "historical",
+            "architecture",
+            "food",
+            "technology",
+            "nature",
+            "shopping",
+            "nightlife"
+        ],
+        "avg_travel_cost": 700,
+        "avg_accommodation_cost": 140,
+        "coordinates": [
+            52.5200,
+            13.4050
+        ],
+        "flag": "🇩🇪",
+        "currency": "EUR",
+        "best_season": "May - September",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Berlin",
+            "Munich",
+            "Hamburg",
+            "Cologne"
+        ]
+    },
+    "Switzerland": {
+        "interests": [
+            "nature",
+            "luxury",
+            "adventure",
+            "architecture",
+            "food",
+            "shopping",
+            "wildlife"
+        ],
+        "avg_travel_cost": 900,
+        "avg_accommodation_cost": 250,
+        "coordinates": [
+            46.9480,
+            7.4474
+        ],
+        "flag": "🇨🇭",
+        "currency": "CHF",
+        "best_season": "June - September, December - March",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Zurich",
+            "Geneva",
+            "Lucerne",
+            "Interlaken"
+        ]
+    },
+    "Iceland": {
+        "interests": [
+            "nature",
+            "adventure",
+            "wildlife",
+            "luxury",
+            "architecture"
+        ],
+        "avg_travel_cost": 950,
+        "avg_accommodation_cost": 220,
+        "coordinates": [
+            64.1466,
+            -21.9426
+        ],
+        "flag": "🇮🇸",
+        "currency": "ISK",
+        "best_season": "June - August",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Reykjavik",
+            "Akureyri",
+            "Vik"
+        ]
+    },
+    "Mexico": {
+        "interests": [
+            "culture",
+            "food",
+            "beaches",
+            "historical",
+            "adventure",
+            "nature",
+            "temples",
+            "nightlife"
+        ],
+        "avg_travel_cost": 600,
+        "avg_accommodation_cost": 100,
+        "coordinates": [
+            19.4326,
+            -99.1332
+        ],
+        "flag": "🇲🇽",
+        "currency": "MXN",
+        "best_season": "December - April",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Mexico City",
+            "Cancún",
+            "Oaxaca",
+            "Playa del Carmen"
+        ]
+    },
+    "Brazil": {
+        "interests": [
+            "nature",
+            "beaches",
+            "culture",
+            "adventure",
+            "food",
+            "nightlife",
+            "wildlife",
+            "islands"
+        ],
+        "avg_travel_cost": 800,
+        "avg_accommodation_cost": 120,
+        "coordinates": [
+            -22.9068,
+            -43.1729
+        ],
+        "flag": "🇧🇷",
+        "currency": "BRL",
+        "best_season": "May - September",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Rio de Janeiro",
+            "São Paulo",
+            "Salvador",
+            "Florianópolis"
+        ]
+    },
+    "Peru": {
+        "interests": [
+            "historical",
+            "culture",
+            "adventure",
+            "nature",
+            "food",
+            "temples",
+            "wildlife",
+            "architecture"
+        ],
+        "avg_travel_cost": 700,
+        "avg_accommodation_cost": 90,
+        "coordinates": [
+            -12.0464,
+            -77.0428
+        ],
+        "flag": "🇵🇪",
+        "currency": "PEN",
+        "best_season": "May - September",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Lima",
+            "Cusco",
+            "Machu Picchu",
+            "Arequipa"
+        ]
+    },
+    "Colombia": {
+        "interests": [
+            "culture",
+            "nature",
+            "food",
+            "adventure",
+            "beaches",
+            "nightlife",
+            "wildlife",
+            "historical"
+        ],
+        "avg_travel_cost": 650,
+        "avg_accommodation_cost": 85,
+        "coordinates": [
+            4.7110,
+            -74.0721
+        ],
+        "flag": "🇨🇴",
+        "currency": "COP",
+        "best_season": "December - March, July - August",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Bogotá",
+            "Medellín",
+            "Cartagena",
+            "Cali"
+        ]
+    },
+    "Argentina": {
+        "interests": [
+            "culture",
+            "food",
+            "nature",
+            "adventure",
+            "nightlife",
+            "wildlife",
+            "architecture",
+            "historical"
+        ],
+        "avg_travel_cost": 750,
+        "avg_accommodation_cost": 100,
+        "coordinates": [
+            -34.6037,
+            -58.3816
+        ],
+        "flag": "🇦🇷",
+        "currency": "ARS",
+        "best_season": "October - April",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Buenos Aires",
+            "Mendoza",
+            "Bariloche",
+            "Patagonia"
+        ]
+    },
+    "South Africa": {
+        "interests": [
+            "wildlife",
+            "nature",
+            "adventure",
+            "culture",
+            "beaches",
+            "food",
+            "diving",
+            "historical"
+        ],
+        "avg_travel_cost": 800,
+        "avg_accommodation_cost": 110,
+        "coordinates": [
+            -33.9249,
+            18.4241
+        ],
+        "flag": "🇿🇦",
+        "currency": "ZAR",
+        "best_season": "May - September",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Cape Town",
+            "Johannesburg",
+            "Kruger Park",
+            "Durban"
+        ]
+    },
+    "Kenya": {
+        "interests": [
+            "wildlife",
+            "nature",
+            "adventure",
+            "culture",
+            "beaches",
+            "historical"
+        ],
+        "avg_travel_cost": 700,
+        "avg_accommodation_cost": 100,
+        "coordinates": [
+            -1.2921,
+            36.8219
+        ],
+        "flag": "🇰🇪",
+        "currency": "KES",
+        "best_season": "July - October, January - February",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Nairobi",
+            "Mombasa",
+            "Masai Mara",
+            "Lamu"
+        ]
+    },
+    "Tanzania": {
+        "interests": [
+            "wildlife",
+            "nature",
+            "adventure",
+            "beaches",
+            "culture",
+            "islands",
+            "diving"
+        ],
+        "avg_travel_cost": 750,
+        "avg_accommodation_cost": 110,
+        "coordinates": [
+            -6.7924,
+            39.2083
+        ],
+        "flag": "🇹🇿",
+        "currency": "TZS",
+        "best_season": "June - October",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Dar es Salaam",
+            "Zanzibar",
+            "Serengeti",
+            "Arusha"
+        ]
+    },
+    "Canada": {
+        "interests": [
+            "nature",
+            "adventure",
+            "food",
+            "culture",
+            "wildlife",
+            "luxury",
+            "architecture",
+            "shopping"
+        ],
+        "avg_travel_cost": 850,
+        "avg_accommodation_cost": 160,
+        "coordinates": [
+            45.4215,
+            -75.6972
+        ],
+        "flag": "🇨🇦",
+        "currency": "CAD",
+        "best_season": "June - September",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Toronto",
+            "Vancouver",
+            "Montreal",
+            "Banff"
+        ]
+    },
+    "USA": {
+        "interests": [
+            "culture",
+            "food",
+            "shopping",
+            "nature",
+            "adventure",
+            "technology",
+            "nightlife",
+            "beaches"
+        ],
+        "avg_travel_cost": 900,
+        "avg_accommodation_cost": 180,
+        "coordinates": [
+            40.7128,
+            -74.0060
+        ],
+        "flag": "🇺🇸",
+        "currency": "USD",
+        "best_season": "April - June, September - November",
+        "safety_score": "safe",
+        "top_cities": [
+            "New York",
+            "Los Angeles",
+            "San Francisco",
+            "Miami"
+        ]
+    },
+    "Croatia": {
+        "interests": [
+            "beaches",
+            "historical",
+            "culture",
+            "islands",
+            "nature",
+            "architecture",
+            "food",
+            "adventure"
+        ],
+        "avg_travel_cost": 600,
+        "avg_accommodation_cost": 120,
+        "coordinates": [
+            43.5081,
+            16.4402
+        ],
+        "flag": "🇭🇷",
+        "currency": "EUR",
+        "best_season": "May - September",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Dubrovnik",
+            "Split",
+            "Zagreb",
+            "Hvar"
+        ]
+    },
+    "Czechia": {
+        "interests": [
+            "historical",
+            "culture",
+            "architecture",
+            "food",
+            "nightlife",
+            "art",
+            "shopping"
+        ],
+        "avg_travel_cost": 550,
+        "avg_accommodation_cost": 100,
+        "coordinates": [
+            50.0755,
+            14.4378
+        ],
+        "flag": "🇨🇿",
+        "currency": "CZK",
+        "best_season": "April - June, September - October",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Prague",
+            "Brno",
+            "Český Krumlov",
+            "Karlovy Vary"
+        ]
+    },
+    "Norway": {
+        "interests": [
+            "nature",
+            "adventure",
+            "wildlife",
+            "luxury",
+            "architecture",
+            "food"
+        ],
+        "avg_travel_cost": 900,
+        "avg_accommodation_cost": 230,
+        "coordinates": [
+            59.9139,
+            10.7522
+        ],
+        "flag": "🇳🇴",
+        "currency": "NOK",
+        "best_season": "June - August",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Oslo",
+            "Bergen",
+            "Tromsø",
+            "Lofoten"
+        ]
+    },
+    "Hungary": {
+        "interests": [
+            "historical",
+            "architecture",
+            "culture",
+            "food",
+            "nightlife",
+            "art",
+            "shopping"
+        ],
+        "avg_travel_cost": 500,
+        "avg_accommodation_cost": 90,
+        "coordinates": [
+            47.4979,
+            19.0402
+        ],
+        "flag": "🇭🇺",
+        "currency": "HUF",
+        "best_season": "April - June, September - October",
+        "safety_score": "safe",
+        "top_cities": [
+            "Budapest",
+            "Eger",
+            "Debrecen",
+            "Pécs"
+        ]
+    },
+    "Romania": {
+        "interests": [
+            "historical",
+            "nature",
+            "culture",
+            "adventure",
+            "architecture",
+            "wildlife"
+        ],
+        "avg_travel_cost": 450,
+        "avg_accommodation_cost": 75,
+        "coordinates": [
+            44.4268,
+            26.1025
+        ],
+        "flag": "🇷🇴",
+        "currency": "RON",
+        "best_season": "May - September",
+        "safety_score": "safe",
+        "top_cities": [
+            "Bucharest",
+            "Brașov",
+            "Sibiu",
+            "Cluj-Napoca"
+        ]
+    },
+    "Slovenia": {
+        "interests": [
+            "nature",
+            "adventure",
+            "culture",
+            "food",
+            "architecture",
+            "luxury"
+        ],
+        "avg_travel_cost": 550,
+        "avg_accommodation_cost": 110,
+        "coordinates": [
+            46.0569,
+            14.5058
+        ],
+        "flag": "🇸🇮",
+        "currency": "EUR",
+        "best_season": "May - September",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Ljubljana",
+            "Bled",
+            "Piran",
+            "Maribor"
+        ]
+    },
+    "Estonia": {
+        "interests": [
+            "historical",
+            "technology",
+            "culture",
+            "architecture",
+            "nature",
+            "nightlife"
+        ],
+        "avg_travel_cost": 500,
+        "avg_accommodation_cost": 95,
+        "coordinates": [
+            59.4370,
+            24.7536
+        ],
+        "flag": "🇪🇪",
+        "currency": "EUR",
+        "best_season": "June - August",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Tallinn",
+            "Tartu",
+            "Pärnu"
+        ]
+    },
+    "Latvia": {
+        "interests": [
+            "historical",
+            "culture",
+            "architecture",
+            "nature",
+            "food",
+            "art"
+        ],
+        "avg_travel_cost": 480,
+        "avg_accommodation_cost": 85,
+        "coordinates": [
+            56.9496,
+            24.1052
+        ],
+        "flag": "🇱🇻",
+        "currency": "EUR",
+        "best_season": "June - August",
+        "safety_score": "safe",
+        "top_cities": [
+            "Riga",
+            "Jūrmala",
+            "Sigulda"
+        ]
+    },
+    "Lithuania": {
+        "interests": [
+            "historical",
+            "culture",
+            "architecture",
+            "nature",
+            "food",
+            "art"
+        ],
+        "avg_travel_cost": 470,
+        "avg_accommodation_cost": 80,
+        "coordinates": [
+            54.6872,
+            25.2797
+        ],
+        "flag": "🇱🇹",
+        "currency": "EUR",
+        "best_season": "June - August",
+        "safety_score": "safe",
+        "top_cities": [
+            "Vilnius",
+            "Kaunas",
+            "Klaipėda",
+            "Trakai"
+        ]
+    },
+    "Finland": {
+        "interests": [
+            "nature",
+            "adventure",
+            "technology",
+            "culture",
+            "luxury",
+            "wildlife",
+            "architecture"
+        ],
+        "avg_travel_cost": 850,
+        "avg_accommodation_cost": 200,
+        "coordinates": [
+            60.1699,
+            24.9384
+        ],
+        "flag": "🇫🇮",
+        "currency": "EUR",
+        "best_season": "June - August, December - March",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Helsinki",
+            "Rovaniemi",
+            "Turku",
+            "Tampere"
+        ]
+    },
+    "Sweden": {
+        "interests": [
+            "nature",
+            "culture",
+            "technology",
+            "architecture",
+            "food",
+            "shopping",
+            "adventure"
+        ],
+        "avg_travel_cost": 850,
+        "avg_accommodation_cost": 210,
+        "coordinates": [
+            59.3293,
+            18.0686
+        ],
+        "flag": "🇸🇪",
+        "currency": "SEK",
+        "best_season": "June - August",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Stockholm",
+            "Gothenburg",
+            "Malmö",
+            "Uppsala"
+        ]
+    },
+    "Denmark": {
+        "interests": [
+            "culture",
+            "architecture",
+            "food",
+            "nature",
+            "shopping",
+            "historical",
+            "luxury"
+        ],
+        "avg_travel_cost": 800,
+        "avg_accommodation_cost": 200,
+        "coordinates": [
+            55.6761,
+            12.5683
+        ],
+        "flag": "🇩🇰",
+        "currency": "DKK",
+        "best_season": "June - August",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Copenhagen",
+            "Aarhus",
+            "Odense"
+        ]
+    },
+    "Austria": {
+        "interests": [
+            "culture",
+            "architecture",
+            "nature",
+            "historical",
+            "art",
+            "food",
+            "luxury",
+            "adventure"
+        ],
+        "avg_travel_cost": 700,
+        "avg_accommodation_cost": 160,
+        "coordinates": [
+            48.2082,
+            16.3738
+        ],
+        "flag": "🇦🇹",
+        "currency": "EUR",
+        "best_season": "April - October",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Vienna",
+            "Salzburg",
+            "Innsbruck",
+            "Hallstatt"
+        ]
+    },
+    "Belgium": {
+        "interests": [
+            "culture",
+            "food",
+            "architecture",
+            "historical",
+            "art",
+            "shopping",
+            "nightlife"
+        ],
+        "avg_travel_cost": 650,
+        "avg_accommodation_cost": 150,
+        "coordinates": [
+            50.8503,
+            4.3517
+        ],
+        "flag": "🇧🇪",
+        "currency": "EUR",
+        "best_season": "May - September",
+        "safety_score": "safe",
+        "top_cities": [
+            "Brussels",
+            "Bruges",
+            "Ghent",
+            "Antwerp"
+        ]
+    },
+    "Netherlands": {
+        "interests": [
+            "culture",
+            "art",
+            "architecture",
+            "food",
+            "nightlife",
+            "shopping",
+            "nature"
+        ],
+        "avg_travel_cost": 700,
+        "avg_accommodation_cost": 170,
+        "coordinates": [
+            52.3676,
+            4.9041
+        ],
+        "flag": "🇳🇱",
+        "currency": "EUR",
+        "best_season": "April - September",
+        "safety_score": "safe",
+        "top_cities": [
+            "Amsterdam",
+            "Rotterdam",
+            "The Hague",
+            "Utrecht"
+        ]
+    },
+    "Ireland": {
+        "interests": [
+            "culture",
+            "nature",
+            "historical",
+            "food",
+            "nightlife",
+            "adventure",
+            "wildlife"
+        ],
+        "avg_travel_cost": 750,
+        "avg_accommodation_cost": 170,
+        "coordinates": [
+            53.3498,
+            -6.2603
+        ],
+        "flag": "🇮🇪",
+        "currency": "EUR",
+        "best_season": "June - August",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Dublin",
+            "Galway",
+            "Cork",
+            "Killarney"
+        ]
+    },
+    "Poland": {
+        "interests": [
+            "historical",
+            "culture",
+            "architecture",
+            "food",
+            "nightlife",
+            "nature",
+            "art"
+        ],
+        "avg_travel_cost": 500,
+        "avg_accommodation_cost": 80,
+        "coordinates": [
+            52.2297,
+            21.0122
+        ],
+        "flag": "🇵🇱",
+        "currency": "PLN",
+        "best_season": "May - September",
+        "safety_score": "safe",
+        "top_cities": [
+            "Kraków",
+            "Warsaw",
+            "Gdańsk",
+            "Wrocław"
+        ]
+    },
+    "Serbia": {
+        "interests": [
+            "culture",
+            "historical",
+            "nightlife",
+            "food",
+            "architecture",
+            "nature"
+        ],
+        "avg_travel_cost": 400,
+        "avg_accommodation_cost": 65,
+        "coordinates": [
+            44.7866,
+            20.4489
+        ],
+        "flag": "🇷🇸",
+        "currency": "RSD",
+        "best_season": "May - September",
+        "safety_score": "safe",
+        "top_cities": [
+            "Belgrade",
+            "Novi Sad",
+            "Niš"
+        ]
+    },
+    "Bulgaria": {
+        "interests": [
+            "historical",
+            "nature",
+            "beaches",
+            "culture",
+            "adventure",
+            "food"
+        ],
+        "avg_travel_cost": 420,
+        "avg_accommodation_cost": 60,
+        "coordinates": [
+            42.6977,
+            23.3219
+        ],
+        "flag": "🇧🇬",
+        "currency": "BGN",
+        "best_season": "May - September",
+        "safety_score": "safe",
+        "top_cities": [
+            "Sofia",
+            "Plovdiv",
+            "Varna",
+            "Veliko Tarnovo"
+        ]
+    },
+    "Montenegro": {
+        "interests": [
+            "beaches",
+            "nature",
+            "historical",
+            "adventure",
+            "culture",
+            "islands"
+        ],
+        "avg_travel_cost": 480,
+        "avg_accommodation_cost": 85,
+        "coordinates": [
+            42.4304,
+            19.2594
+        ],
+        "flag": "🇲🇪",
+        "currency": "EUR",
+        "best_season": "May - September",
+        "safety_score": "safe",
+        "top_cities": [
+            "Kotor",
+            "Budva",
+            "Podgorica",
+            "Durmitor"
+        ]
+    },
+    "Albania": {
+        "interests": [
+            "beaches",
+            "historical",
+            "nature",
+            "culture",
+            "adventure",
+            "food"
+        ],
+        "avg_travel_cost": 380,
+        "avg_accommodation_cost": 50,
+        "coordinates": [
+            41.3275,
+            19.8187
+        ],
+        "flag": "🇦🇱",
+        "currency": "ALL",
+        "best_season": "June - September",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Tirana",
+            "Berat",
+            "Sarandë",
+            "Gjirokastër"
+        ]
+    },
+    "Malta": {
+        "interests": [
+            "historical",
+            "beaches",
+            "culture",
+            "architecture",
+            "diving",
+            "food"
+        ],
+        "avg_travel_cost": 500,
+        "avg_accommodation_cost": 110,
+        "coordinates": [
+            35.8989,
+            14.5146
+        ],
+        "flag": "🇲🇹",
+        "currency": "EUR",
+        "best_season": "April - November",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Valletta",
+            "Mdina",
+            "Gozo"
+        ]
+    },
+    "Cyprus": {
+        "interests": [
+            "beaches",
+            "historical",
+            "culture",
+            "food",
+            "nature",
+            "diving"
+        ],
+        "avg_travel_cost": 550,
+        "avg_accommodation_cost": 110,
+        "coordinates": [
+            35.1856,
+            33.3823
+        ],
+        "flag": "🇨🇾",
+        "currency": "EUR",
+        "best_season": "April - October",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Nicosia",
+            "Limassol",
+            "Paphos",
+            "Larnaca"
+        ]
+    },
+    "Luxembourg": {
+        "interests": [
+            "culture",
+            "architecture",
+            "historical",
+            "food",
+            "luxury",
+            "nature"
+        ],
+        "avg_travel_cost": 600,
+        "avg_accommodation_cost": 180,
+        "coordinates": [
+            49.6116,
+            6.1319
+        ],
+        "flag": "🇱🇺",
+        "currency": "EUR",
+        "best_season": "May - September",
+        "safety_score": "very safe",
+        "top_cities": [
+            "Luxembourg City",
+            "Vianden",
+            "Echternach"
+        ]
+    },
+    "Chile": {
+        "interests": [
+            "nature",
+            "adventure",
+            "food",
+            "culture",
+            "wildlife",
+            "beaches",
+            "historical"
+        ],
+        "avg_travel_cost": 750,
+        "avg_accommodation_cost": 110,
+        "coordinates": [
+            -33.4489,
+            -70.6693
+        ],
+        "flag": "🇨🇱",
+        "currency": "CLP",
+        "best_season": "October - March",
+        "safety_score": "safe",
+        "top_cities": [
+            "Santiago",
+            "Valparaíso",
+            "Torres del Paine",
+            "San Pedro de Atacama"
+        ]
+    },
+    "Costa Rica": {
+        "interests": [
+            "nature",
+            "adventure",
+            "wildlife",
+            "beaches",
+            "culture",
+            "islands",
+            "diving"
+        ],
+        "avg_travel_cost": 650,
+        "avg_accommodation_cost": 100,
+        "coordinates": [
+            9.9281,
+            -84.0907
+        ],
+        "flag": "🇨🇷",
+        "currency": "CRC",
+        "best_season": "December - April",
+        "safety_score": "safe",
+        "top_cities": [
+            "San José",
+            "La Fortuna",
+            "Manuel Antonio",
+            "Monteverde"
+        ]
+    },
+    "Ecuador": {
+        "interests": [
+            "nature",
+            "adventure",
+            "wildlife",
+            "culture",
+            "historical",
+            "beaches",
+            "islands"
+        ],
+        "avg_travel_cost": 600,
+        "avg_accommodation_cost": 70,
+        "coordinates": [
+            -0.1807,
+            -78.4678
+        ],
+        "flag": "🇪🇨",
+        "currency": "USD",
+        "best_season": "June - September",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Quito",
+            "Galápagos",
+            "Cuenca",
+            "Baños"
+        ]
+    },
+    "Cuba": {
+        "interests": [
+            "culture",
+            "historical",
+            "beaches",
+            "food",
+            "nightlife",
+            "architecture",
+            "art"
+        ],
+        "avg_travel_cost": 550,
+        "avg_accommodation_cost": 80,
+        "coordinates": [
+            23.1136,
+            -82.3666
+        ],
+        "flag": "🇨🇺",
+        "currency": "CUP",
+        "best_season": "November - April",
+        "safety_score": "safe",
+        "top_cities": [
+            "Havana",
+            "Trinidad",
+            "Viñales",
+            "Varadero"
+        ]
+    },
+    "Panama": {
+        "interests": [
+            "nature",
+            "beaches",
+            "adventure",
+            "culture",
+            "islands",
+            "wildlife",
+            "shopping"
+        ],
+        "avg_travel_cost": 600,
+        "avg_accommodation_cost": 90,
+        "coordinates": [
+            8.9824,
+            -79.5199
+        ],
+        "flag": "🇵🇦",
+        "currency": "USD",
+        "best_season": "December - April",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Panama City",
+            "Bocas del Toro",
+            "San Blas",
+            "Boquete"
+        ]
+    },
+    "Uruguay": {
+        "interests": [
+            "culture",
+            "beaches",
+            "food",
+            "nature",
+            "nightlife",
+            "historical"
+        ],
+        "avg_travel_cost": 650,
+        "avg_accommodation_cost": 100,
+        "coordinates": [
+            -34.9011,
+            -56.1645
+        ],
+        "flag": "🇺🇾",
+        "currency": "UYU",
+        "best_season": "December - March",
+        "safety_score": "safe",
+        "top_cities": [
+            "Montevideo",
+            "Punta del Este",
+            "Colonia del Sacramento"
+        ]
+    },
+    "Dominican Republic": {
+        "interests": [
+            "beaches",
+            "culture",
+            "nightlife",
+            "adventure",
+            "nature",
+            "islands",
+            "food"
+        ],
+        "avg_travel_cost": 550,
+        "avg_accommodation_cost": 85,
+        "coordinates": [
+            18.4861,
+            -69.9312
+        ],
+        "flag": "🇩🇴",
+        "currency": "DOP",
+        "best_season": "December - April",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Santo Domingo",
+            "Punta Cana",
+            "La Romana",
+            "Samaná"
+        ]
+    },
+    "Guatemala": {
+        "interests": [
+            "culture",
+            "historical",
+            "nature",
+            "adventure",
+            "temples",
+            "wildlife",
+            "food"
+        ],
+        "avg_travel_cost": 500,
+        "avg_accommodation_cost": 55,
+        "coordinates": [
+            14.6349,
+            -90.5069
+        ],
+        "flag": "🇬🇹",
+        "currency": "GTQ",
+        "best_season": "November - April",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Antigua Guatemala",
+            "Guatemala City",
+            "Lake Atitlán",
+            "Tikal"
+        ]
+    },
+    "Bolivia": {
+        "interests": [
+            "nature",
+            "adventure",
+            "culture",
+            "historical",
+            "wildlife"
+        ],
+        "avg_travel_cost": 450,
+        "avg_accommodation_cost": 45,
+        "coordinates": [
+            -16.4897,
+            -68.1193
+        ],
+        "flag": "🇧🇴",
+        "currency": "BOB",
+        "best_season": "May - October",
+        "safety_score": "moderate",
+        "top_cities": [
+            "La Paz",
+            "Salar de Uyuni",
+            "Sucre",
+            "Lake Titicaca"
+        ]
+    },
+    "Jamaica": {
+        "interests": [
+            "beaches",
+            "culture",
+            "nightlife",
+            "food",
+            "nature",
+            "adventure"
+        ],
+        "avg_travel_cost": 600,
+        "avg_accommodation_cost": 110,
+        "coordinates": [
+            18.1096,
+            -77.2975
+        ],
+        "flag": "🇯🇲",
+        "currency": "JMD",
+        "best_season": "November - April",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Kingston",
+            "Montego Bay",
+            "Ocho Rios",
+            "Negril"
+        ]
+    },
+    "Ghana": {
+        "interests": [
+            "culture",
+            "historical",
+            "food",
+            "nature",
+            "wildlife",
+            "adventure"
+        ],
+        "avg_travel_cost": 600,
+        "avg_accommodation_cost": 80,
+        "coordinates": [
+            5.6037,
+            -0.1870
+        ],
+        "flag": "🇬🇭",
+        "currency": "GHS",
+        "best_season": "November - March",
+        "safety_score": "safe",
+        "top_cities": [
+            "Accra",
+            "Kumasi",
+            "Cape Coast",
+            "Tamale"
+        ]
+    },
+    "Ethiopia": {
+        "interests": [
+            "historical",
+            "culture",
+            "nature",
+            "adventure",
+            "wildlife",
+            "temples",
+            "food"
+        ],
+        "avg_travel_cost": 550,
+        "avg_accommodation_cost": 60,
+        "coordinates": [
+            9.0250,
+            38.7469
+        ],
+        "flag": "🇪🇹",
+        "currency": "ETB",
+        "best_season": "October - March",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Addis Ababa",
+            "Lalibela",
+            "Gondar",
+            "Simien Mountains"
+        ]
+    },
+    "Rwanda": {
+        "interests": [
+            "wildlife",
+            "nature",
+            "culture",
+            "adventure",
+            "historical"
+        ],
+        "avg_travel_cost": 700,
+        "avg_accommodation_cost": 100,
+        "coordinates": [
+            -1.9403,
+            29.8739
+        ],
+        "flag": "🇷🇼",
+        "currency": "RWF",
+        "best_season": "June - September",
+        "safety_score": "safe",
+        "top_cities": [
+            "Kigali",
+            "Volcanoes National Park",
+            "Lake Kivu"
+        ]
+    },
+    "Botswana": {
+        "interests": [
+            "wildlife",
+            "nature",
+            "adventure",
+            "luxury",
+            "culture"
+        ],
+        "avg_travel_cost": 850,
+        "avg_accommodation_cost": 180,
+        "coordinates": [
+            -24.6282,
+            25.9231
+        ],
+        "flag": "🇧🇼",
+        "currency": "BWP",
+        "best_season": "May - October",
+        "safety_score": "safe",
+        "top_cities": [
+            "Gaborone",
+            "Okavango Delta",
+            "Chobe",
+            "Makgadikgadi"
+        ]
+    },
+    "Namibia": {
+        "interests": [
+            "nature",
+            "wildlife",
+            "adventure",
+            "culture",
+            "luxury",
+            "beaches"
+        ],
+        "avg_travel_cost": 800,
+        "avg_accommodation_cost": 140,
+        "coordinates": [
+            -22.5609,
+            17.0658
+        ],
+        "flag": "🇳🇦",
+        "currency": "NAD",
+        "best_season": "May - October",
+        "safety_score": "safe",
+        "top_cities": [
+            "Windhoek",
+            "Sossusvlei",
+            "Etosha",
+            "Swakopmund"
+        ]
+    },
+    "Madagascar": {
+        "interests": [
+            "nature",
+            "wildlife",
+            "adventure",
+            "beaches",
+            "culture",
+            "islands"
+        ],
+        "avg_travel_cost": 700,
+        "avg_accommodation_cost": 65,
+        "coordinates": [
+            -18.8792,
+            47.5079
+        ],
+        "flag": "🇲🇬",
+        "currency": "MGA",
+        "best_season": "April - November",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Antananarivo",
+            "Nosy Be",
+            "Andasibe",
+            "Morondava"
+        ]
+    },
+    "Senegal": {
+        "interests": [
+            "culture",
+            "historical",
+            "nature",
+            "beaches",
+            "food",
+            "wildlife"
+        ],
+        "avg_travel_cost": 550,
+        "avg_accommodation_cost": 70,
+        "coordinates": [
+            14.7167,
+            -17.4677
+        ],
+        "flag": "🇸🇳",
+        "currency": "XOF",
+        "best_season": "November - May",
+        "safety_score": "safe",
+        "top_cities": [
+            "Dakar",
+            "Saint-Louis",
+            "Gorée Island",
+            "Casamance"
+        ]
+    },
+    "Uganda": {
+        "interests": [
+            "wildlife",
+            "nature",
+            "adventure",
+            "culture",
+            "historical"
+        ],
+        "avg_travel_cost": 650,
+        "avg_accommodation_cost": 80,
+        "coordinates": [
+            0.3476,
+            32.5825
+        ],
+        "flag": "🇺🇬",
+        "currency": "UGX",
+        "best_season": "June - August, December - February",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Kampala",
+            "Bwindi",
+            "Jinja",
+            "Queen Elizabeth NP"
+        ]
+    },
+    "Mauritius": {
+        "interests": [
+            "beaches",
+            "luxury",
+            "nature",
+            "diving",
+            "culture",
+            "food",
+            "islands"
+        ],
+        "avg_travel_cost": 800,
+        "avg_accommodation_cost": 160,
+        "coordinates": [
+            -20.1609,
+            57.5012
+        ],
+        "flag": "🇲🇺",
+        "currency": "MUR",
+        "best_season": "May - December",
+        "safety_score": "safe",
+        "top_cities": [
+            "Port Louis",
+            "Grand Baie",
+            "Flic en Flac",
+            "Le Morne"
+        ]
+    },
+    "Laos": {
+        "interests": [
+            "culture",
+            "temples",
+            "nature",
+            "adventure",
+            "food",
+            "historical"
+        ],
+        "avg_travel_cost": 450,
+        "avg_accommodation_cost": 45,
+        "coordinates": [
+            17.9757,
+            102.6331
+        ],
+        "flag": "🇱🇦",
+        "currency": "LAK",
+        "best_season": "November - March",
+        "safety_score": "safe",
+        "top_cities": [
+            "Luang Prabang",
+            "Vientiane",
+            "Vang Vieng",
+            "Pakse"
+        ]
+    },
+    "Myanmar": {
+        "interests": [
+            "culture",
+            "temples",
+            "historical",
+            "nature",
+            "adventure",
+            "food",
+            "architecture"
+        ],
+        "avg_travel_cost": 500,
+        "avg_accommodation_cost": 55,
+        "coordinates": [
+            16.8661,
+            96.1951
+        ],
+        "flag": "🇲🇲",
+        "currency": "MMK",
+        "best_season": "November - February",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Yangon",
+            "Bagan",
+            "Mandalay",
+            "Inle Lake"
+        ]
+    },
+    "Mongolia": {
+        "interests": [
+            "nature",
+            "adventure",
+            "culture",
+            "wildlife",
+            "historical"
+        ],
+        "avg_travel_cost": 650,
+        "avg_accommodation_cost": 70,
+        "coordinates": [
+            47.8864,
+            106.9057
+        ],
+        "flag": "🇲🇳",
+        "currency": "MNT",
+        "best_season": "June - September",
+        "safety_score": "safe",
+        "top_cities": [
+            "Ulaanbaatar",
+            "Gobi Desert",
+            "Khövsgöl Lake",
+            "Terelj"
+        ]
+    },
+    "Georgia": {
+        "interests": [
+            "culture",
+            "food",
+            "nature",
+            "historical",
+            "architecture",
+            "adventure",
+            "wine"
+        ],
+        "avg_travel_cost": 450,
+        "avg_accommodation_cost": 55,
+        "coordinates": [
+            41.7151,
+            44.8271
+        ],
+        "flag": "🇬🇪",
+        "currency": "GEL",
+        "best_season": "May - June, September - October",
+        "safety_score": "safe",
+        "top_cities": [
+            "Tbilisi",
+            "Batumi",
+            "Kazbegi",
+            "Kutaisi"
+        ]
+    },
+    "Uzbekistan": {
+        "interests": [
+            "historical",
+            "architecture",
+            "culture",
+            "food",
+            "adventure",
+            "temples"
+        ],
+        "avg_travel_cost": 500,
+        "avg_accommodation_cost": 50,
+        "coordinates": [
+            41.2995,
+            69.2401
+        ],
+        "flag": "🇺🇿",
+        "currency": "UZS",
+        "best_season": "April - June, September - November",
+        "safety_score": "safe",
+        "top_cities": [
+            "Samarkand",
+            "Bukhara",
+            "Khiva",
+            "Tashkent"
+        ]
+    },
+    "Azerbaijan": {
+        "interests": [
+            "culture",
+            "architecture",
+            "historical",
+            "food",
+            "nature",
+            "adventure"
+        ],
+        "avg_travel_cost": 480,
+        "avg_accommodation_cost": 65,
+        "coordinates": [
+            40.4093,
+            49.8671
+        ],
+        "flag": "🇦🇿",
+        "currency": "AZN",
+        "best_season": "April - June, September - October",
+        "safety_score": "safe",
+        "top_cities": [
+            "Baku",
+            "Sheki",
+            "Gabala",
+            "Gobustan"
+        ]
+    },
+    "Fiji": {
+        "interests": [
+            "beaches",
+            "islands",
+            "diving",
+            "nature",
+            "luxury",
+            "adventure",
+            "culture"
+        ],
+        "avg_travel_cost": 850,
+        "avg_accommodation_cost": 150,
+        "coordinates": [
+            -17.7134,
+            177.9999
+        ],
+        "flag": "🇫🇯",
+        "currency": "FJD",
+        "best_season": "May - October",
+        "safety_score": "safe",
+        "top_cities": [
+            "Suva",
+            "Nadi",
+            "Denarau",
+            "Yasawa Islands"
+        ]
+    },
+    "Papua New Guinea": {
+        "interests": [
+            "nature",
+            "adventure",
+            "culture",
+            "wildlife",
+            "diving",
+            "islands"
+        ],
+        "avg_travel_cost": 800,
+        "avg_accommodation_cost": 100,
+        "coordinates": [
+            -6.3149,
+            143.9556
+        ],
+        "flag": "🇵🇬",
+        "currency": "PGK",
+        "best_season": "May - October",
+        "safety_score": "moderate",
+        "top_cities": [
+            "Port Moresby",
+            "Goroka",
+            "Rabaul",
+            "Mount Hagen"
+        ]
+    }
+}
